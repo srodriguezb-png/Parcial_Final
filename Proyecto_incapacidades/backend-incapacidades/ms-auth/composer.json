@@ -1,0 +1,17 @@
+{
+    "name": "proyecto-incapacidades/ms-auth",
+    "description": "Microservicio de autenticacion del sistema de incapacidades",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "slim/slim": "^4.15.3",
+        "slim/psr7": "^1.8.1",
+        "illuminate/database": "^12.0",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
